@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minruby (1.0.4)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  minruby (~> 1.0)
+
+BUNDLED WITH
+   2.4.10
