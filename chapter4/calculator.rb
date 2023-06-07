@@ -20,6 +20,14 @@ def evaluate(tree)
     left = evaluate(tree[1])
     right = evaluate(tree[2])
     left / right
+  when "%"
+    left = evaluate(tree[1])
+    right = evaluate(tree[2])
+    left % right
+  when "**"
+    left = evaluate(tree[1])
+    right = evaluate(tree[2])
+    left ** right
   end
 end
 
